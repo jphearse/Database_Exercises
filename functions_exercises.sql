@@ -12,4 +12,4 @@ SELECT datediff(curdate(), hire_date) FROM employees WHERE hire_date BETWEEN '19
 SELECT * FROM employees WHERE birth_date LIKE '%-12-25';
 
 SELECT CONCAT(first_name, ' ', last_name, ' ', COUNT(CONCAT(first_name,' ', last_name)))FROM employees 
-	WHERE last_name LIKE '%q%' AND last_name NOT LIKE '%qu%' GROUP BY first_name, last_name;g
+	WHERE last_name LIKE '%q%' AND last_name NOT LIKE '%qu%' GROUP BY first_name, last_name;gg
